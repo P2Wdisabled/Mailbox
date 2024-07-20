@@ -8,7 +8,7 @@
 ## Installation
 Pour installer et configurer ce projet, suivez les étapes ci-dessous :
 
-**Clonez le dépôt Git **:
+**Clonez le dépôt Git** :
 
 ```bash
 git clone https://github.com/P2Wdisabled/Mailbox.git
