@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erreur 404...</title>
+
+    <link rel="icon" type="image/png" href="../Assets/Icons/Anchor-logo/blue-large.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../Styles/formatting.css">
+    <link rel="stylesheet" href="../Styles/logos.css">
+    <link rel="stylesheet" href="../Styles/texts.css">
+
+</head>
+<body>
+    <div class="super-container">
+        <div class="left-part">
+            <span id= "anchor" class="material-symbols-outlined">
+                anchor
+            </span>
+            <h1 class="main-title">Ship Manager</h1>
+        </div>
+        <div class="right-part">
+            <h3 class="errortext">
+                Erreur 404 : Page introuvable
+            </h3>
+            <h5 class="headline">
+                Ahoy matelos ! Nous sommes à la dérive. <br>
+                Les courants nous emportent loin de notre destination.
+            </h5>
+            <a href="../index.html" class="homeback">
+                Retour en terrain connu ! <br>
+                <em>page d'accueil</em>
+            </a>
+        </div>
+    </div>
+    
+    <style>
+        .super-container{
+            background: #6900ff;
+            background: -webkit-linear-gradient(0deg, #6900ff 0%, #9951ff 100%);
+            background: linear-gradient(0deg, #6900ff 0%, #9951ff 100%);
+
+        }
+
+        .right-part{
+            color: white;
+            font-family: "Plus Jakarta Sans";
+            height : 100vh;
+            width: 60%;
+            display:flex;
+            flex-direction: column;
+            position: relative;
+            left: 10%;
+            top: 25%;
+            overflow: auto;
+
+
+        }
+
+        .errortext{
+            font-size: 3rem;
+            margin: 5%;
+        }
+
+        .headline{
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+
+        .homeback{
+            margin-top: 5%;
+            color:whitesmoke;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .homeback em{
+            font-size: 0.8rem;
+        }
+
+    </style>
+</body>
+</html>
